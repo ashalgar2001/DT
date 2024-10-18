@@ -1,0 +1,208 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 14px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    padding: 1px 30px 30px 30px;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+}
+
+.head{
+    width: 1159px;
+    background-color: blue;
+    height: 42px;
+    margin: -3px -31px 51px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.head h4{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/* .section1{
+    background-color: #d7c1c1;
+    margin: 3px 3px;
+    padding: 7px 15px;
+    width: 250px;
+    height: 304px;
+} */
+
+.logo {
+    width: 150px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 15px;
+}
+
+.user-icon {
+    width: 20px;
+    /* height: 30px; */
+    margin: 9px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.explore-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-details strong {
+    font-weight: bold;
+}
+
+.class-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    border: 2px solid darkgray;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid darkgrey;
+    /* border-radius: 12px 12px 0px 0px; */
+}
+
+.tab {
+    
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px 94px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: blue;
+    color: white;
+}
+
+.class-details {
+    display: flex;
+    gap: 20px;
+}
+
+.class-card {
+    /* width: 30%; */
+    background-color: #eceae8;
+    margin: 3px 3px;
+    border-radius: 9px;
+    padding: 7px 15px;
+    width: 250px;
+    height: 304px;
+}
+
+.class-card img {
+    /* width: 100%; */
+    /* border-radius: 10px; */
+    /* height: 172px; */
+    width: 236px;
+    border-radius: 10px;
+    height: 188px;
+    /* margin-top: 7px; */
+    margin: 2px -8px;
+}
+
+
+.class-card p {
+    margin-top: 10px;
+}
+
+.class-description {
+    width: 70%;
+    /* width: 70%; */
+    background-color: #eceae8;
+    /* padding: 2px 11px; */
+    /* margin: 4px 31px; */
+    border-radius: 8px;
+    padding: -1px 0px 10px 18px;
+    margin: 4px 32px 10px 43px;
+    height: 303px;
+    border: 2px solid darkgray;
+}
+
+
+.class-description h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.class-description p {
+    margin-bottom: 20px;
+}
+
+.course-literature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid darkgray;
+}
+
+.course-literature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.c1{
+    background-color: blue;
+    width: 1100px;
+    border-radius: 9px 9px 0px 0px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: -22px -20px 210px -22px;
+}
+
